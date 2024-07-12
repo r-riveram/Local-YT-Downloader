@@ -1,8 +1,8 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow, QFileDialog
 import sys
-import mp3downloader
-import mp4downloader
-from designer import Ui_MainWindow 
+import functions.mp3downloader as mp3downloader
+import functions.mp4downloader as mp4downloader
+from pyqt_design.designer import Ui_MainWindow 
 
 
 class MainWindow(QMainWindow, Ui_MainWindow): 
